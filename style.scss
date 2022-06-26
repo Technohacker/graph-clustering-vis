@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box !important;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+
+  background-color: #222;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  color: white;
+}
+
+#controls {
+  padding: 1rem;
+
+  input {
+    display: block;
+    width: 100%;
+  }
+
+  border-right: 1px solid white;
+
+  button {
+    width: 100%;
+
+    border: none;
+
+    padding: 1rem;
+    background-color: rgb(29, 84, 148);
+
+    color: white;
+
+    margin-bottom: 1rem;
+
+    font-size: 1.25rem;
+
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(35, 106, 187);
+    }
+
+    &:active {
+      background-color: rgb(14, 75, 145);
+    }
+  }
+}
